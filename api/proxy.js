@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
     const { endpoint } = req.query;
     const AUTH_TOKEN = 'Eiw9Aingi9OhReeMuenge1ooNgaiyei0geicoh1tooZ4Eiwoo0ahhie5co4veoHi';
-    const BASE_URL = 'https://preview-nightly.vericle-test.com';
+    const BASE_URL = 'https://api.vericle.com';
 
     const url = `${BASE_URL}${endpoint}?authToken=${AUTH_TOKEN}`;
 
