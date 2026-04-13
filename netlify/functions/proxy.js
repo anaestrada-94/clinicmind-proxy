@@ -10,7 +10,7 @@ exports.handler = async function(event, context) {
     }
 
     const AUTH_TOKEN = 'naesheek7uu2qua6teeshe3ceo9ohCho8aMae1hahkii9Kai0eera5uezi0iepai';
-    const BASE_URL = 'https://api.vericle.com';
+    const BASE_URL = 'https://preview-nightly.vericle-test.com';
 
     const params = new URLSearchParams(event.queryStringParameters);
     const endpoint = params.get('endpoint');
